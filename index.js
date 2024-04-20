@@ -4,7 +4,7 @@ const app = express()
 const port = 3001
 
 app.use(cors())
-
+// 주석 추가 2024
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
